@@ -37,3 +37,40 @@ It's lightweight, easy to configure, and perfect for home automation scripts, cu
       cp config.json.example config.json
       ```
     - Open `config.json` and fill in your TV's IP address and MAC address. You can usually find these in your TV's network settings or on your router's admin page.
+
+4.  **Pair with your TV:**
+    The first time you run a command, your TV will display a pairing request. You must accept this request on the TV screen to authorize the script to control it.
+
+## Usage
+
+Run the script from your terminal using `node remote.js` followed by a command.
+
+### Available Commands
+
+| Command      | Description                      |
+|--------------|----------------------------------|
+| `on`         | Turns the TV on.                 |
+| `off`        | Turns the TV off.                |
+| `volumeUp`   | Increases the volume.            |
+| `volumeDown` | Decreases the volume.            |
+| `mute`       | Mutes the audio.                 |
+| `unmute`     | Unmutes the audio.               |
+| `youtube`    | Launches the YouTube app.        |
+| `hdmi1`      | Switches the input to HDMI 1.    |
+
+### Examples
+
+```bash
+# Turn the TV on
+node remote.js on
+
+# Increase the volume
+node remote.js volumeUp
+
+# Launch YouTube
+node remote.js youtube
+```
+
+## License
+
+This project is licensed under the MIT License.
