@@ -1,0 +1,5 @@
+{
+    "tv_ip": "192.168.1.100",
+    "tv_mac": "XX:XX:XX:XX:XX:XX",
+    "broadcast_ip": "255.255.255.255"
+}
